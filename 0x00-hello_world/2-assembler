@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFILC -o $CFILC.o  
+gcc -E $CFILC -o c 
