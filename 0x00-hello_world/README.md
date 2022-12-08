@@ -1,0 +1,2 @@
+HELLO, WORLD
+This was a project on C programming language done during ull Full Stack Software Engineering Scholarship course at ALX School. It aims to teach about entry point, commands like (puts, printf, putchar), and  compilation with gcc in C language with shell.
