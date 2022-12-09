@@ -36,6 +36,7 @@ putchar(',');
 putchar(' ');
 }
 i++;
+}
 e++;
 }
 g++;
