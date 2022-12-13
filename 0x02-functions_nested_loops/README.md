@@ -1,0 +1,1 @@
+The reoposreopohas source code to demonstrate knowledge of funtion, header files, loops and nested loops in c.
