@@ -21,9 +21,9 @@ i = count / 2;
 else
 i = (count - 1) / 2;
 
-for (i++; i < count; i+xux
+for (i++; i < count; i++)
 {
-_putchar(str[istr
+  _putchar(str[i])
 }
 _putchar('\n');
 }
