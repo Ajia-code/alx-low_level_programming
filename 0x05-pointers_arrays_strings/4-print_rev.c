@@ -5,18 +5,18 @@
  * @s: input string.
  * Return: no return.
  */
-
-
 void print_rev(char *s)
 {
-int i;
-for (i = 0; *(s + i) != '\0' ;  i++)
+int count = 0;
+
+while (count >= 0)
 {
+if (s[count] == '\0')
+break;
+count++;
 }
-while (i  >= 0)
-{
-_putchar(s[i]);
-i--;
-}
+
+for (count--; count >= 0; count--)
+_putchar(s[count]);
 _putchar('\n');
 }
