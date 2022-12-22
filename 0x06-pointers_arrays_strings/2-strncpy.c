@@ -7,20 +7,14 @@
  * Return: the pointer to dest.
  */
 
-
 char *_strncpy(char *dest, char *src, int n)
 {
-int i  = 0;
-while (n > 0)
-{
-if (*(dest + i ) != '\0')
-{
-*(dest + i) = *(src + i) ;
-i++;
-n--;
-}
-}
+int i;
+
+for (i = 0; i < n && src[i] != '\0'; i++)
+dest[i] = src[i];
 for ( ; i < n; i++)
-dest[i] = '\src;
-return(dest);
+dest[i] = '\0';
+
+return (dest);
 }
