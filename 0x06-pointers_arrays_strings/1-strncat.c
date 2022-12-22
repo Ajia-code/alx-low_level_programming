@@ -8,23 +8,23 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-  int count = 0, count2  = 0, count3 = 0;
-  while (*(dest + count) != '\0')
-    {
-      count++;
-    }
+int count = 0, count2  = 0, count3 = 0;
+while (*(dest + count) != '\0')
+{
+count++;
+}
 
-  while (*(src + count3) != '\0')
-    {
-      count3++;
-    }
+while (*(src + count3) != '\0')
+{
+count3++;
+}
 
-  for (count2; n > count2; count2++)
-    {
-      if (count2 == count3 )
-	break;
-      *(dest + count) = *(src + count2);
-      count++;
-    }
-  return (dest);
+for (count2; n > count2; count2++)
+{
+if (count2 == count3 )
+break;
+*(dest + count) = *(src + count2);
+count++;
+}
+return (dest);
 }
