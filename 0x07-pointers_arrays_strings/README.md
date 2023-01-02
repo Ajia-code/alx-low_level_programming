@@ -1,0 +1,1 @@
+This directory contains C source codes to demonstrate skills in pointers, array and string as part of the ALX Full Stack Software Engineering course.
