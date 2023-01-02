@@ -15,5 +15,5 @@ for (c = 0; c < n; c++)
 {
 s[c] = b;
 }
-return (s)
+return (s);
 }
