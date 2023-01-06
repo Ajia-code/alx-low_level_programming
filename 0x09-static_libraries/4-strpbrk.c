@@ -20,5 +20,5 @@ if (*(s + i) == *(accept + j))
 return (s + i);
 }
 }
-return ('\0');
+return (0);
 }
