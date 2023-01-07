@@ -20,11 +20,14 @@ printf ("%d\n", 0);
 }
 for (int i = 1; i < argc; i++)
 {
-if (!isdigit(atoi(argv[i])))
+for (int c = 0; argv[i][c] != '\0'; c++)
+{
+if (!isdigit(argv[i][c]))
 {
 printf ("Error\n");
 return (1);
-}    
+}
+}
 sum += atoi (argv[i]);
 }
 printf ("%d\n", sum);

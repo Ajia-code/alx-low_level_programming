@@ -13,9 +13,7 @@ int main (int argc, char *argv[])
 if (argc == 3)
 {
 int times;
-int one = atoi(argv[1]);
-int two = atoi(argv[2]);
-times = one * two;
+times = atoi(argv[1])  * atoi(argv[2]);
 printf ("%d\n", times);
 return (0);
 }
