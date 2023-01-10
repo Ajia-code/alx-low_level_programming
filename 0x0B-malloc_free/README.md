@@ -1,0 +1,1 @@
+This directory contains source codes that demonstrate the use of malloc and free in C programming - part of ALX Software Engineering course project. 
