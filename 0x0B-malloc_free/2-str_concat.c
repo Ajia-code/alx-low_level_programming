@@ -5,7 +5,7 @@
  * @s1: a character array
  * @s2: a character array to be concat to s1
  *
- * Return: returns a pointer to the concatenated strings 
+ * Return: returns a pointer to the concatenated strings
  */
 
 char *str_concat(char *s1, char *s2)
