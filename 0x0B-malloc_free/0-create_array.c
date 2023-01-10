@@ -15,7 +15,7 @@ char *ar;
 if (size == 0)
 return (NULL);
 
-ar  = malloc (size);
+ar  = malloc(size);
 
 if (ar == NULL)
 return (NULL);
