@@ -21,7 +21,7 @@ for (c = 0; s2[c] != '\0'; c++)
 
 concat  = (char *) malloc(sizeof (char) * (b + c + 1));
 
-if (strout == NULL)
+if (concat == NULL)
 {
 free(concat);
 return (NULL);
