@@ -13,26 +13,25 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-  unsigned int i = 0;
-  char *array;
-  unsigned int array_size;
-  array_size = nmemb * size;
+unsigned int i = 0;
+char *array;
+unsigned int array_size;
+array_size = nmemb * size;
+if (nmemb == 0 || size == 0)
+{
+return NULL;
+}
+array = malloc(array_size);
 
-  if (nmemb == 0 || size == 0)
-    {
-      return NULL;
-    }
-  array = malloc(array_size);
+if (array == NULL)
+{
+return NULL;
+}
 
-  if (array == NULL)
-    {
-      return NULL;
-    }
-
-  while (i < array_size)
-    {
-      array[i] = 0;
-      i++;
-    }
-  return array;
+while (i < array_size)
+{
+array[i] = 0;
+i++;
+}
+return array;
 }
