@@ -19,13 +19,13 @@ unsigned int array_size;
 array_size = nmemb * size;
 if (nmemb == 0 || size == 0)
 {
-return NULL;
+return (NULL);
 }
 array = malloc(array_size);
 
 if (array == NULL)
 {
-return NULL;
+return (NULL);
 }
 
 while (i < array_size)
@@ -33,5 +33,5 @@ while (i < array_size)
 array[i] = 0;
 i++;
 }
-return array;
+return (array);
 }

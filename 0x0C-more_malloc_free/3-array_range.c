@@ -18,14 +18,14 @@ int j;
 
 if (min > max)
 {
-return NULL;
+return (NULL);
 }
 
 array = (int *) malloc(sizeof(int) * ((max - min) + 1));
 
 if (array == NULL)
 {
-return NULL;
+return (NULL);
 }
 
 for (j = 0; min <= max; j++)
@@ -33,5 +33,5 @@ for (j = 0; min <= max; j++)
 array[j] = min;
 min++;
 }
-return array;
+return (array);
 }
