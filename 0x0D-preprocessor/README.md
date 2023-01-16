@@ -1,0 +1,1 @@
+The directory contains files to teach typedef in C programming, part of ALX Software Engineering course.
