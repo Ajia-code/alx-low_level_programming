@@ -25,7 +25,7 @@ array = malloc(array_size);
 
 if (array == NULL)
 {
-return NULL;
+return (NULL);
 }
 
 while (i < array_size)
@@ -33,5 +33,5 @@ while (i < array_size)
 array[i] = 0;
 i++;
 }
-return array;
+return(array);
 }
