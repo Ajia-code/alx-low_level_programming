@@ -19,7 +19,7 @@ unsigned int array_size;
 array_size = nmemb * size;
 if (nmemb == 0 || size == 0)
 {
-return NULL;
+return (NULL);
 }
 array = malloc(array_size);
 
@@ -33,5 +33,9 @@ while (i < array_size)
 array[i] = 0;
 i++;
 }
+<<<<<<< HEAD
 return(array);
+=======
+return (array);
+>>>>>>> refs/remotes/origin/main
 }
