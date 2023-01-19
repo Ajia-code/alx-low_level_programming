@@ -1,0 +1,1 @@
+This directory contains project codes to demonstrate the use of the "stdarg.h" library to handle variable number of arguments to a function. 
