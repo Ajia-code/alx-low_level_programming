@@ -1,0 +1,1 @@
+The directory contains files to projects done as part of ALX Software Engineering course to demonstrate the use of pointer to function. 
