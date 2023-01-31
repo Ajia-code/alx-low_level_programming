@@ -1,0 +1,1 @@
+The directory contains source codes in C that demonstrateaskills in manipulating singly linked list and use of malloc and free to control elements of the list. 
